@@ -85,3 +85,84 @@ footer {
 .Seccion-contacto {
   list-style: none;
 }
+
+.info-contenedor {
+  background: white;          
+  max-width: 900px;               
+  margin: 30px auto;             
+  padding: 30px;                  
+  border-radius: 10px;            
+}
+
+.sobre-nosotros, 
+.contacto {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: .3rem;
+  font-size: 1rem;
+}
+
+.form-contacto button {
+  background: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-contacto button:hover {
+  background: #333;
+}
+
+.blog {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 900px;                  
+  margin: 0 auto 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.blog-post {
+  display: flex;
+  background: #eafdff;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.blog-img {
+  width: 20%;              
+  max-width: 190px;
+  height: auto;
+}
+
+.blog-contenido {
+  width: 80%;
+  padding: 3rem;
+}
+
+.blog-contenido h3 {
+  margin: 0 0 10px;
+}
+
+.blog-contenido p {
+  margin: 5px 0;
+}
+
+.blog-contenido blockquote {
+  margin: 10px 0;
+  color: #333;
+}
